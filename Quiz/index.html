@@ -1,0 +1,130 @@
+
+
+
+
+
+
+<DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> Quiz</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="scss/style.css">
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+    </style>
+    <div class="header">
+      <img src="images/guosto.jpeg"
+      height="180">
+    </div>
+  </head>
+
+
+
+
+
+	<body>
+    <div><h1>What Guosto customer favourite  recipe are you?</h1></div>
+		<div>
+      <div class="panel">
+			<h2>How spicy do you like it?</h2>
+     
+        <span>
+			<input type="radio" id="basic" name="spicy">
+			<label for="basic">Basic </label>
+
+      <input type="radio" id="nandos" name="spicy" class="answer">
+			<label for="nandos">Nandos Medium</label>
+    </span>
+<span>
+      <input type="radio" id="vindaloo" name="spicy">
+			<label for="vindaloo">Vindaloo</label>
+
+      <input type="radio" id="hot" name="spicy">
+			<label for=”hot”>Too Hot To Handle</label>
+		</span>
+    </div>
+
+  </div>
+
+
+<div>
+  <div class="panel">
+      <h2>What's your perfect sunday?</h2>
+      
+      <span>
+      <input type="radio" id="boozy" name="sunday">
+      <label for="boozy">Boozy Brunch</label>
+      
+
+      <input type="radio" id="pub" name="sunday">
+      <label for="pub">A Walk and Pub Lunch</label> 
+      </span>
+      <span>
+      <input type="radio" id="famer" name="sunday">
+      <label for="farmer">Farmers Market</label>
+
+      <input type="radio" id="netflix" name="sunday">
+      <label for="netflix">Netflix Binge</label>
+      </span>
+  </div>
+    </div>
+  </div>
+
+
+    <div>
+      <div class="panel">
+      <h2>What is your favorite condiment?</h2>
+      <span>
+      <input type="radio" id="relish" name="condiment">
+      <label for="relish">Relish</label>
+
+      <input type="radio" id="Sriacha" name="condiment">
+      <label for="Sriacha">Sriacha</label>
+    </span>
+<span>
+      <input type="radio" id="bbq" name="condiment">
+      <label for="bbq">BBQ sauce</label>
+
+      <input type="radio" id="aioli" name="condiment">
+      <label for="aioli">Aioli</label>
+    </span>
+    </div>
+    </div>
+
+    <div>
+      <div class="panel">
+      <h2>What were you dreaming about during lockdown?</h2>
+      <span>
+      <input type="radio" id="apres" name="holiday" >
+      <label for="apres">Apres Ski</label>
+
+      <input type="radio" id="city" name="holiday">
+      <label for="city">City Break</label>
+    </span>
+    <span>
+
+      <input type="radio" id="cruise" name="holiday">
+      <label for="cruise">All Inclusive Cruise</label>
+
+      <input type="radio" id="beach" name="holiday">
+      <label for="beach">White Sandy Beaches</label>
+    </span>
+    </div>
+  </div>
+
+    <div><br><br>
+      <button type="button" id="submit-button" class="result">Get My Results!</button>
+      <button type="button" id="reset-button" class="reset">Reset Quiz</button>
+    </div>
+  </div>
+
+    <div id="result">
+    </div>
+
+		<script src="js/script.js">    
+    </script>
+	</body>
+</html>

@@ -1,0 +1,102 @@
+
+   
+body {
+  background-color: white; 
+}
+  
+
+#result {
+  margin-top: 30px;
+  font-size: 30px;
+}
+
+h1{
+font-family: Comfortaa, Helvetica, sans-serif;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+letter-spacing: normal;
+line-height: 57.6px;
+text-transform: none;
+color: #333D47;
+text-align: center;
+}
+
+h2{
+ font-family: Comfortaa, Helvetica, sans-serif;
+ font-size: 30px;
+ font-style: normal;
+ font-weight: 550;
+ letter-spacing: normal;
+ text-transform: none;
+ color:black; 
+ text-align: center;
+}
+
+
+
+
+
+
+
+button {
+  background: #fe0032;
+  background-image: -webkit-linear-gradient(top, #fe0032, #fe0032 );
+  background-image: -moz-linear-gradient(top, #fe0032, #fe0032 );
+  background-image: -ms-linear-gradient(top, #fe0032, #fe0032 );
+  background-image: -o-linear-gradient(top, #fe0032, #fe0032 );
+  background-image: linear-gradient(to bottom, #fe0032, #fe0032 );
+  -webkit-border-radius: 26;
+  -moz-border-radius: 26;
+  border-radius: 26px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 17px 25px 20px 26px;
+  text-decoration: none;
+
+}
+
+button:hover {
+  background: #fc3c3c;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+.panel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkgrey;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 25px;
+    margin-bottom: 5%;
+    border-color: black;
+    padding: 0% 5% 5% 5%;
+}
+.header{
+  background-color: #fe0032;
+  max-height: 25%;
+  margin-top: -1%;
+}
+
+
+
+
+img{
+  padding-left: 10%;
+}
+
+.result{
+  margin: 5% 0% 0% 45%;
+}
+.reset{
+  margin-left: 46.5%;
+  margin-top: 2%;
+}
